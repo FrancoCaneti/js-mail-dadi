@@ -10,22 +10,16 @@ var listaEmail = ['tonystark@starkindustries.us', 'cap1942@avenger.us', 'hulk@sm
 console.log ('Database Email: ',listaEmail);
 
 //Controllo Mail
-var mailFound = false
+var mailFound = ('Email non valida! Attivare protocollo di Sicurezza')
 
 for ( var i = 0; i < listaEmail.length; i++) {
   if(listaEmail[i] === emailUtente) {
-       mailFound = true
+       mailFound = ('Email valida! Buongiorno signor Stark!')
 
    }
 }
 
-if (mailFound === true) {
- console.log('Email fornita valida. Buona giornata signor Stark...');
-} else {
-    console.log('Autenticazione fallita! Avviare protocollo di sicurezza!')
-}
-
-document.getElementById('mailFound').innerHTML = (mailFound)
+document.getElementById('mailFound').innerHTML = (mailFound);
 
 
 //*************************************************************************************//
