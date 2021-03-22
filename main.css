@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(71, 185, 230);
+    text-align: center;
+
+}
+
+h1{
+    size:20px;
+    color:white
+}
+ /*contenitori*/
+
+.mail{
+    
+       position: relative;
+        height: 800px; 
+        margin: 0 auto;
+        background-image: url(./img/329894.jpg) ;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}  
+
+
+ .dadi{
+   position: relative;
+    height: 800px; 
+    margin: 0 auto;
+    background-image: url(./img/624.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*menu*/
+.navigazione {
+  position: fixed;
+  right: 30px;
+  z-index: 3;
+  display: inline-block ;
+}
+
+.navigazione li{
+    padding: 5px;
+   display: inline;
+   list-style: none;
+   margin:15px
+}
+
+.navigazione ul li a{
+    width: 25px;
+    height: 20px;
+    
+}
+
+.icon{
+   color: rgba(247, 236, 236, 0.918)
+}
+
+
+.navigazione {
+   margin: 15px 0;
+   text-decoration: none;
+}
+
+.box{
+    height: 100px;
+    width:30%;
+    background-image: linear-gradient(to bottom right, #ff00002e , #0000ff42);
+    border-radius: 5%;
+    padding:10px;
+}
+
+.box2{
+    height: 50px;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 5%;
+    padding:10px;
+    vertical-align: middle;
+}

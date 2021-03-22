@@ -10,7 +10,7 @@ var listaEmail = ['tonystark@starkindustries.us', 'cap1942@avenger.us', 'hulk@sm
 console.log ('Database Email: ',listaEmail);
 
 //Controllo Mail
-var mailFound = ('Email non valida! Attivare protocollo di Sicurezza')
+var mailFound = ('Email non valida! Attivare protocollo di Sicurezza!')
 
 for ( var i = 0; i < listaEmail.length; i++) {
   if(listaEmail[i] === emailUtente) {
@@ -41,11 +41,11 @@ var risultato ;
 
 
 if (numeroUtente > numeroComputer){
-   console.log (risultato = 'hai vinto')
+   console.log (risultato = 'hai vinto!!!')
 } else if (numeroUtente < numeroComputer){
-   console.log (risultato = 'Hai perso') 
+   console.log (risultato = 'Hai perso :C') 
 } else if (numeroUtente == numeroComputer){
-   console.log (risultato = 'Pareggio')
+   console.log (risultato = 'Pareggio -.-')
 }
 
 
